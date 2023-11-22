@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and Links</title>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+</head>
+<body>
+    <ol>
+    <h2 align="Center"> Social Media Platforms </h2>
+
+    <li><h3>Youtube</h3></li>
+   <l1><h4>Logo :</h4></l1>
+   <img src="Youtube.png" alt="Not found" width="50">
+    <h4>Youtube Link :
+    <a href="https://www.youtube.com/" target="_blank">Youtube<br></a></h4>
+    <hr>
+    <li><h3>Whatsapp</h3></li>
+    <l1><h4>Logo :</h4></l1>
+    <img src="Whatsapp.png" alt="Not found" width="50">
+    <h4>Whatsapp Link : 
+    <a href="https://www.Whatsapp.com/"target="_blank">Whatsapp<br></a></h4>
+    <hr>
+
+    <li><h3>Facebook</h3></li>
+    <l1><h4>Logo :</h4></l1>
+    <img src="Facebook_Logo_2023.png" alt="photo Not  found" width="50">
+    <h4>Facebook Link : 
+    <a href="https://www.Facebook.com/"target="_blank">Facebook<br></a></h4>
+    <hr>
+
+    <li><h3>Twitter</h3></li>
+    <l1><h4>Logo :</h4></l1>
+    <img src="Twitter_logo.png" alt="Not found" width="50">
+    <h4>Twitter link : 
+    <a href="https://www.Twitter.com/"target="_blank">Twitter<br></a></h4>
+    <hr>
+
+    <h2 align="Center">TABLE</h2>
+    <table style="width:30%">
+        <thead>
+            <tr>
+                <th>Platform Name</th>
+                <th>Launch year </th>
+                <th>Ceo name</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Youtube</td>
+                <td>2005</td>
+                <td>Neal Mohan</td>
+
+            </tr>
+            <tr>
+                <td>Whatsapp</td>
+                <td>2009</td>
+                <td>Jan Koum</td>
+
+            </tr>
+            <tr>
+                <td>Facebook</td>
+                <td>2004</td>
+                <td>Mark Zuckerberg</td>
+
+            </tr>
+            <tr>
+                <td>Twitter</td>
+                <td>2006</td>
+                <td>Linda Yaccarino</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br>
+<hr>
+<h2 align="Center"> FEEDBACK FORM </h2><br>
+    <h2> Enter your details </h2>
+<fieldset>
+    <form action="backend.py">
+       <label for="MyName"> Name : </label> 
+        <div>
+      <input type="text" name="MyName" id="MyName" >
+        </div>
+        <br>
+        <div>
+            Age : <input type="number" name="MyAge">
+        </div>
+        <br>
+        <div>
+            Email : <input type="text" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Date Of Birth : <input type="date" name="MyDate">
+        </div>
+        <br>
+        <div>
+            Gender : Male<input type="radio" name="mygender"  value="male"> FeMale<input type="radio" name="mygender"  value="FeMale">
+            Other<input type="radio" name="mygender"  value="Other">
+        </div><br>
+        <div>
+          Write about yourself : <br>  <textarea name="myText" cols="90" rows="10"></textarea>
+        </div><br>
+<div><label for="country">Country : </label>
+            <select name="myCountry" id="country">
+                <option value="city" selected disabled hidden>--Select City--</option>
+                <option value="nz">NewZealand</option>
+                <option value="Ind" >India</option>
+                <option value="sl" >SriLanka</option>
+                <option value="pak" >Pakistan</option>
+            </select>
+         
+            </div>
+      <br>
+            <input type="submit" value="Submit now ">
+            <!-- <input type="reset" value="Reset now"> -->
+       
+    </form>
+
+</fieldset>
+</body>
+</html>
